@@ -1,0 +1,2 @@
+# globalogic
+gl kurs
