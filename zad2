@@ -1,11 +1,6 @@
-zdanie = input()
+zdanie = input(" Zdanie proszę: \n")
 
-l = list(zdanie)
+l = list(zdanie.split(" "))
 l.reverse()
-zdanie = str(''.join(l))
+zdanie = str(' '.join(l))
 print(zdanie)
-
-l = zdanie.split()
-odwrot = l[::-1]
-odwrot_zdanie = " ".join(odwrot)
-print(odwrot_zdanie)
